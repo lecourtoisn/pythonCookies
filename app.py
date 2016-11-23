@@ -5,8 +5,7 @@ cookies = 0
 
 @app.route("/")
 def hello():
-    return "Hello World!"
-
+    return "Hello cookie eater!"
 @app.route("/cookies")
 def getCookies():
 	global cookies
