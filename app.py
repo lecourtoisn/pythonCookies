@@ -7,7 +7,7 @@ cookies = 0
 
 @app.route("/")
 def hello():
-    return "Hello cookie eater friend! Hope you're doing fine!"
+    return "Hello cookie eater friend! "
 
 
 @app.route("/cookies")
